@@ -11,8 +11,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
-  FULL_IMAGE_NAME: ghcr.io/${{ github.repository }}
+  IMAGE_NAME: urbanemc/open-webui
+  FULL_IMAGE_NAME: ghcr.io/urbanemc/open-webui
 
 jobs:
   build-main-image:
